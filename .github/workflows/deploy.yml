@@ -29,7 +29,7 @@ jobs:
           dotnet-version: 9.0.x
 
       - name: Publish
-        run: dotnet publish Test_2/Test_2.csproj -c Release -o publish
+        run: dotnet publish Test_1/Test_1.csproj -c Release -o publish
 
       - name: Fix GitHub Pages paths
         run: |
